@@ -1,3 +1,195 @@
-.header {
-	top:20px;
+/* * {
+	margin: 0;
+	padding: 0;
+} */
+
+body {
+  margin: 0 auto;
+  font-family: "Arial", sans-serif;
+  background-color: #61f3e0;
+}
+
+header {
+  background-color: #29dff7;
+}
+
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.nav__menu {
+  display: flex;
+  margin-bottom: 50px;
+}
+
+.nav__menu-list {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  padding: 0px;
+}
+
+.nav__menu-item {
+  margin: 0px 30px;
+}
+
+.nav__menu-link {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 18px;
+  color: #aba4b8;
+}
+
+.block-left {
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+}
+
+.main-container {
+  display: flex;
+}
+
+.me {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 30px;
+  letter-spacing: 10px;
+  color: #170a1a;
+}
+
+h3 {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 22px;
+  color: #170a1a;
+}
+
+.photo img {
+  margin: 0 auto;
+  padding: auto;
+  width: 400px;
+  object-fit: cover;
+}
+
+.contacts-list {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+}
+
+.contacts-item {
+  text-transform: uppercase;
+  margin: 20px;
+  text-decoration: none;
+}
+
+.contacts-item a {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 18px;
+  color: #565b6d;
+}
+
+.block-rigth {
+  display: flex;
+  flex-direction: column;
+}
+
+h2 {
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 26px;
+  letter-spacing: 10px;
+  color: #170a1a;
+  margin-bottom: 47px;
+}
+
+p {
+  font-size: 18px;
+  color: #170a1a;
+}
+
+.skills-list {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  padding: 0px;
+}
+
+a {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 18px;
+  color: #565b6d;
+}
+
+.language-list {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  padding: 0px;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #710e3d;
+}
+
+.footer-github {
+  background-image: url(./assets/svg/git.svg);
+  background-position: center left;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: block;
+  width: 140px;
+  height: 80px;
+}
+
+.rsschool {
+  background-image: url(./assets/svg/rs.svg);
+  background-position: center left;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: block;
+  width: 162px;
+  height: 60px;
+}
+
+@media (max-width: 1024px) {
+  .main-container {
+    flex-direction: column;
+  }
+
+  .contacts-list {
+    align-items: center;
+  }
+
+  p {
+    text-align: center;
+  }
+
+  a {
+    display: block;
+    text-align: center;
+  }
+}
+
+@media (max-width: 790px) {
+  .nav-list {
+    flex-direction: column;
+    justify-content: center;
+  }
 }
