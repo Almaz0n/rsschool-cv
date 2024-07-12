@@ -1,8 +1,3 @@
-/* * {
-	margin: 0;
-	padding: 0;
-} */
-
 body {
   margin: 0 auto;
   font-family: "Arial", sans-serif;
@@ -13,10 +8,6 @@ body {
 header {
   background-color: #29dff7;
 }
-
-/* .nav__menu {
-  max-width: 1440px;
-} */
 
 .container
  {
@@ -79,13 +70,6 @@ h1 {
 
 }
 
-/* h3 {
-  text-align: center;
-  text-transform: uppercase;
-  font-size: 22px;
-  color: #170a1a;
-} */
-
 .photo img {
   margin: 0 auto;
   padding: auto;
@@ -96,14 +80,12 @@ h1 {
 .contacts__list {
   display: flex;
   flex-direction: column;
-  /* list-style: none; */
-}
+ }
 
 .contacts__item {
   text-transform: uppercase;
   margin: 15px;
-  /* text-decoration: none; */
-}
+ }
 
 .contacts__item a {
   text-decoration: none;
@@ -144,7 +126,6 @@ p {
 .skills__list {
   display: flex;
   flex-direction: column;
-  /* list-style: none; */
   padding: 0px;
 }
 
@@ -158,7 +139,6 @@ a {
 .language__list {
   display: flex;
   flex-direction: column;
-  /* list-style: none; */
   padding: 0px;
 }
 
@@ -179,7 +159,7 @@ a {
   width: 80px;
   height: 80px;
 }
-.github /* .footer__github */ {
+.github {
   width: 80px;
   height: 80px;
 }
@@ -193,29 +173,3 @@ a {
   width: 80px;
   height: 80px;
 }
-
-/* @media (max-width: 1024px) {
-  .main__container {
-    flex-direction: column;
-  }
-
-  .contacts__list {
-    align-items: center;
-  }
-
-  p {
-    text-align: center;
-  }
-
-  a {
-    display: block;
-    text-align: center;
-  }
-}
-
-@media (max-width: 790px) {
-  .nav__menu-list {
-    flex-direction: column;
-    justify-content: center;
-  }
-} */
