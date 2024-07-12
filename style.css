@@ -171,7 +171,7 @@ a {
 }
 
 .footer__github {
-  background-image: url(/asserts/github-icon-1.svg);
+  background-image: url(./asserts/github-icon-1.svg);
   background-position: center left;
   background-repeat: no-repeat;
   background-size: cover;
