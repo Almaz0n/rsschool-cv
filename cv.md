@@ -67,3 +67,4 @@ Secondary special education, Pedagogical
 
 ## Self-education (study project) (HTML, CSS, BOOTSTRAP)
 + [githab Progects](https://github.com/Almaz0n/store1.github.io "Описание")
+## in process…
